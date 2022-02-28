@@ -105,7 +105,6 @@ async function getToxicityResult(requestData: Object) {
   let response = await analyzeComment(client, requestData)
 
   try {
-    console.log(response.data.attributeScores)
     let attr_scores = response.data.attributeScores
     toxic_score = attr_scores.TOXICITY.summaryScore.value
     profan_score = attr_scores.PROFANITY.summaryScore.value
