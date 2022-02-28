@@ -1,0 +1,47 @@
+name: English
+short_name: en
+start: |
+  <b>Bot</b> will detect toxic messages in group chats and help moderate them
+help: |
+  <b>Bot</b> will detect toxic messages in group chats and help moderate them.
+  Just add the bot to any group! (and make sure it has <b>admin rights!!!</b>)
+
+  <b>Send</b> /subscribe_mod (for admins) - became moderator of current chat. <b>(You shouldn't be anonymous
+  and group should have link like t.me/...)</b>
+  <b>Send</b> /unsubscribe_mod - unsubscribe from moderating current chat
+  <b>Send</b> /interactive - bot will respond to toxic messages
+  <b>Send</b> /thresh - get information about thresholds
+
+  <b>Send</b> /add_trig - (beta) as reply, to add trigger word
+  <b>Send</b> /rm_trig - (beta) as reply, to remove trigger word
+  <b>Send</b> /get_trig - (beta) to get trigger words
+
+  <b>Send</b> /help - this message
+  <b>Send</b> /language - change language
+  <b>Send</b> /hide_cmd - hide inline commands
+  <b>Send</b> /show_cmd - show inline commands
+
+thresh: |
+  <b>Send</b> /setthresh <i>toxic</i> | <i>profan</i> | <i>identity</i> | <i>insult</i> 0.5 in order to change threshold for specified category to 0.5
+  <b>Send</b> /resetthresh - reset thresholds to default values
+  <b>Send</b> /getthresh - get default values
+  <b>Send</b> /toxicscore as a reply to a message in order to get toxicity score
+
+language: Please, select the language.
+language_selected: <b>Bot</b> now speaks English.
+toxic_notification: I can be mistaken, but if message is toxic, please delete it
+profan_notification: I can be mistaken, but if message contains profanities, please delete them
+insult_notification: I can be mistaken, but if message contains insults, please delete them
+identity_notification: I can be mistaken, but if message targets identity in a negative way, please delete it
+default_thresh: Thresholds are dafaulted
+thresh_info: Thresholds are
+toxic_msg: This message is toxic with probability of
+profan_msg: This message is profan with probability of
+insult_msg: This message is insulting with probability of
+identity_msg: This message is negative against identity with probability of
+
+chat_missing: Please start a private chat with me before subscribing
+not_admin: You are not an admin
+subscribed: You are already subscribed
+unsubscribed: You are already unsubscribed
+interactive: Interactiveness was set to

@@ -1,0 +1,47 @@
+# Translate to French
+name: Française
+short_name: fr
+start: |
+  <b>Bot</b> va détecter les messages toxiques dans les groupes et vous aider à les modérer.
+help: |
+  <b>Bot</b> va détecter les messages toxiques dans les groupes et vous aider à les modérer.
+  Ajoutez le bot à n'importe quel groupe! (et assurez-vous que le bot a les <b>droits d'administrateur!!!</b>)
+
+  <b>Envoyez</b> /subscribe_mod (pour les administrateurs) - devient modérateur du groupe actuel. <b>(Vous ne devriez pas être anonyme et le groupe devrait avoir un lien comme t.me/...)</b>
+  <b>Envoyez</b> /unsubscribe_mod - se désabonner du modération du groupe actuel
+  <b>Envoyez</b> /interactive - le bot va répondre aux messages toxiques
+  <b>Envoyez</b> /thresh - obtenez des informations sur les seuils
+
+  <b>Envoyez</b> /add_trig - (beta) en réponse, pour ajouter un mot-clé
+  <b>Envoyez</b> /rm_trig - (beta) en réponse, pour supprimer un mot-clé
+  <b>Envoyez</b> /get_trig - (beta) pour obtenir les mots-clés
+
+  <b>Envoyez</b> /help - cette message
+  <b>Envoyez</b> /language - changer de langue
+  <b>Envoyez</b> /hide_cmd - cacher les commandes en ligne
+  <b>Envoyez</b> /show_cmd - montrer les commandes en ligne
+
+thresh: |
+  <b>Envoyez</b> /setthresh <i>toxic</i> | <i>profan</i> | <i>identity</i> | <i>insult</i> 0.5 dans l'ordre pour changer le seuil pour la catégorie spécifiée à 0.5
+  <b>Envoyez</b> /resetthresh - réinitialiser les seuils à leurs valeurs par défaut
+  <b>Envoyez</b> /getthresh - obtenir les valeurs par défaut
+  <b>Envoyez</b> /toxicscore en réponse à un message pour obtenir le score toxique
+
+language: Veuillez sélectionner la langue.
+language_selected: <b>Bot</b> parle maintenant Français.
+toxic_notification: Je peux être erroné, mais si le message est toxique, veuillez le supprimer
+profan_notification: Je peux être erroné, mais si le message contient des obscénités, veuillez les supprimer
+insult_notification: Je peux être erroné, mais si le message contient des insultes, veuillez les supprimer
+identity_notification: Je peux être erroné, mais si le message cible l'identité dans une façon négative, veuillez le supprimer
+default_thresh: les seuils sont définis par défaut
+thresh_info: les seuils sont
+toxic_msg: ce message est toxique avec une probabilité de
+profan_msg: ce message est profane avec une probabilité de
+insult_msg: Ce message est insultant avec probabilité de
+identity_msg: ce message est négatif contre l'identité avec une probabilité de
+
+chat_missing: Veuillez démarrer un chat privé avec moi avant de vous abonner
+not_admin: vous n'êtes pas administrateur
+subscribed: vous êtes déjà abonné
+unsubscribed: vous êtes déjà désabonné
+interactive: l'interactivité a été définie sur

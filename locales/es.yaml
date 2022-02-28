@@ -1,0 +1,46 @@
+name: Española
+short_name: es
+start: |
+  <b>Bot</b> detectará mensajes tóxicos en chats de grupo y ayudará a moderarlos
+help: |
+  <b>Bot</b> detectará mensajes tóxicos en chats de grupo y ayudará a moderarlos.
+  ¡Únete a cualquier grupo! (y asegúrate de que tenga <b>permisos de administrador!!!</b>)
+
+  <b>Enviar</b> /subscribe_mod (para administradores) - se convertirá en moderador del chat actual. <b>(No debería estar anónimo y el grupo debería tener un enlace como t.me/...)</b>
+  <b>Enviar</b> /unsubscribe_mod - se desuscribirá del moderando del chat actual
+  <b>Enviar</b> /interactive - el bot responderá a mensajes tóxicos
+  <b>Enviar</b> /thresh - obtener información sobre umbrales
+
+  <b>Enviar</b> /add_trig - (beta) como respuesta, para agregar una palabra clave
+  <b>Enviar</b> /rm_trig - (beta) como respuesta, para eliminar una palabra clave
+  <b>Enviar</b> /get_trig - (beta) para obtener las palabras clave
+
+  <b>Enviar</b> /help - este mensaje
+  <b>Enviar</b> /language - cambiar idioma
+  <b>Enviar</b> /hide_cmd - ocultar comandos inline
+  <b>Enviar</b> /show_cmd - mostrar comandos inline
+
+thresh: |
+  <b>Enviar</b> /setthresh <i>toxic</i> | <i>profan</i> | <i>identity</i> | <i>insult</i> 0.5 en orden para cambiar el umbral para la categoría especificada a 0.5
+  <b>Enviar</b> /resetthresh - restablecer umbrales a valores por defecto
+  <b>Enviar</b> /getthresh - obtener valores por defecto
+  <b>Enviar</b> /toxicscore como respuesta a un mensaje para obtener el puntaje de toxicidad
+
+language: Por favor, seleccione el idioma.
+language_selected: <b>Bot</b> ahora habla Español.
+toxic_notification: ¡Estoy equivocado, pero si el mensaje es tóxico, por favor borrarlo!
+profan_notification: ¡Estoy equivocado, pero si el mensaje contiene lenguaje profano, por favor borrarlo!
+insult_notification: ¡Estoy equivocado, pero si el mensaje contiene insultos, por favor borrarlo!
+identity_notification: ¡Estoy equivocado, pero si el mensaje contiene identidad de género, por favor borrarlo!
+default_thresh: los umbrales están predeterminados
+thresh_info: Los umbrales son
+toxic_msg: Este mensaje es tóxico con probabilidad de
+profan_msg: Este mensaje es profano con probabilidad de
+insult_msg: Este mensaje es insultante con probabilidad de
+identity_msg: Este mensaje es negativo contra identidad con probabilidad de
+
+chat_missing: Inicie un chat privado conmigo antes de suscribirse
+not_admin: No eres administrador
+subscribed: ya estás suscrito
+unsubscribed: Ya estás dado de baja
+interactive: la interactividad se configuró en

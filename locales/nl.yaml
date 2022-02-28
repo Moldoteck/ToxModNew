@@ -1,0 +1,40 @@
+name: Hollandsk
+short_name: nl
+start: |
+  <b>Bot</b> zal detecteren van toxische berichten in groepschatsen en helpen deze moderatie te beïnvloeden.
+  Voeg de bot toe aan een groep! (en zorg erna voor <b>admin rechten!!!</b>)
+  <b>Stuur</b> /subscribe_mod (voor admins) - wordt moderator van huidige chat. <b>(Je zou niet anoniem moeten zijn en groep moeten hebben link als t.me/...)</b>
+  <b>Stuur</b> /unsubscribe_mod - uitschrijven van moderatie van huidige chat
+  <b>Stuur</b> /interactive - bot zal reageren op toxische berichten
+  <b>Stuur</b> /thresh - krijg informatie over thresholds
+  <b>Stuur</b> /add_trig - (beta) als antwoord, om trigger woord toe te voegen
+  <b>Stuur</b> /rm_trig - (beta) als antwoord, om trigger woord te verwijderen
+  <b>Stuur</b> /get_trig - (beta) om trigger woorden te krijgen
+  <b>Stuur</b> /help - dit bericht
+  <b>Stuur</b> /language - verander taal
+  <b>Stuur</b> /hide_cmd - verberg inline commando's
+  <b>Stuur</b> /show_cmd - toon inline commando's
+thresh: |
+  <b>Stuur</b> /setthresh <i>toxic</i> | <i>profan</i> | <i>identity</i> | <i>insult</i> 0.5 in volgorde om threshold voor gespecificeerde categorie te wijzigen naar 0.5
+  <b>Stuur</b> /resetthresh - reset thresholds naar standaard waarden
+  <b>Stuur</b> /getthresh - krijg standaard waarden
+  <b>Stuur</b> /toxicscore als antwoord op een bericht om de toxische score te krijgen
+
+language: Selecteer de taal.
+language_selected: <b>Bot</b> spreekt nu Engels.
+toxic_notification: Ik kan verontrust zijn, maar als bericht is toxic, verwijder het dan
+profan_notification: Ik kan verontrust zijn, maar als bericht bevat profanities, verwijder ze dan
+insult_notification: Ik kan verontrust zijn, maar als bericht bevat insulten, verwijder ze dan
+identity_notification: Ik kan verontrust zijn, maar als bericht negatief op identiteit is, verwijder het dan
+default_thresh: Thresholds zijn standaard
+thresh_info: Tærskler er
+toxic_msg: Denne besked er giftig med sandsynlighed for
+profan_msg: Denne besked er profan med sandsynlighed for
+insult_msg: Denne besked er fornærmende med sandsynlighed for
+identity_msg: Denne besked er negativ mod identitet med sandsynlighed for
+
+chat_missing: Start en privat chat med mig, før du abonnerer
+not_admin: Du er ikke en administrator
+subscribed: Du er allerede tilmeldt
+unsubscribed: Du er allerede afmeldt
+interactive: Interaktivitet blev indstillet til

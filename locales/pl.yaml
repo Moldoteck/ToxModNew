@@ -1,0 +1,46 @@
+name: Polski
+short_name: pl
+start: |
+  <b>Bot</b> wykryje zanieczyszczenia w prywatnych czatach i pomaga moderować je.
+help: |
+  <b>Bot</b> wykryje zanieczyszczenia w prywatnych czatach i pomaga moderować je.
+  Dodaj go do dowolnego czatu! (i upewnij się, że ma <b>admin uprawnienia!!!</b>)
+
+  <b>Wyślij</b> /subscribe_mod (dla adminów) - stałej się moderatorem bota. <b>(Nie powinieneś być anonimowy i czat powinien mieć link t.me/...)</b>
+  <b>Wyślij</b> /unsubscribe_mod - wypisz się z moderowania bota
+  <b>Wyślij</b> /interactive - bot będzie odpowiadać na zanieczyszczenia
+  <b>Wyślij</b> /thresh - pobierz informacje o progu
+
+  <b>Wyślij</b> /add_trig - (beta) jako odpowiedź, aby dodać słowo kluczowe
+  <b>Wyślij</b> /rm_trig - (beta) jako odpowiedź, aby usunąć słowo kluczowe
+  <b>Wyślij</b> /get_trig - (beta) aby pobrać słowa kluczowe
+
+  <b>Wyślij</b> /help - ten tekst
+  <b>Wyślij</b> /language - zmień język
+  <b>Wyślij</b> /hide_cmd - ukryj komendy inline
+  <b>Wyślij</b> /show_cmd - pokaż komendy inline
+
+thresh: |
+  <b>Wyślij</b> /setthresh <i>toxic</i> | <i>profan</i> | <i>identity</i> | <i>insult</i> 0.5 w kolejności aby zmienić prog dla określonej kategorii na 0.5
+  <b>Wyślij</b> /resetthresh - zresetuj progi na domyślne
+  <b>Wyślij</b> /getthresh - pobierz domyślne progi
+  <b>Wyślij</b> /toxicscore jako odpowiedź na wiadomość aby pobrać skalę zanieczyszczenia
+
+language: Proszę, wybierz język.
+language_selected: <b>Bot</b> teraz mówi polskim.
+toxic_notification: Nie mogę być złym, ale jeśli wiadomość jest zanieczyszczeniem, proszę język usunąć
+profan_notification: Nie mogę być złym, ale jeśli wiadomość jest zanieczyszczeniem, proszę język usunąć
+insult_notification: Nie mogę być złym, ale jeśli wiadomość jest zanieczyszczeniem, proszę język usunąć
+identity_notification: Nie mogę być złym, ale jeśli wiadomość jest zanieczyszczeniem, proszę język usunąć
+default_thresh: Progi są domyślne
+thresh_info: Progi to
+toxic_msg: Ta wiadomość jest toksyczna z prawdopodobieństwem
+profan_msg: Ta wiadomość jest wulgarna z prawdopodobieństwem
+insult_msg: Ta wiadomość jest obraźliwa z prawdopodobieństwem
+identity_msg: ta wiadomość jest negatywna w stosunku do tożsamości z prawdopodobieństwem
+
+chat_missing: Rozpocznij ze mną prywatny czat, zanim zasubskrybujesz
+not_admin: Nie jesteś administratorem
+subscribed: już subskrybujesz
+unsubscribed: już nie subskrybujesz
+interactive: Interaktywność została ustawiona na

@@ -1,0 +1,45 @@
+name: Češka
+short_name: cs
+start: |
+  <b>Bot</b> bude detekovat toxické zprávy v skupinových chatech a pomoci moderovat je
+help: |
+  <b>Bot</b> bude detekovat toxické zprávy v skupinových chatech a pomoci moderovat je
+  Přidej ho do jakéhokoliv chatu! (a ujisti se, že má <b>admin uprawnienia!!!</b>)
+
+  <b>Odeslat</b> /subscribe_mod (pro adminy) - stačí se stát moderátorem bota. <b>(Neměli bys byt anonymní a chat měl mít link t.me/...)</b>
+  <b>Odeslat</b> /unsubscribe_mod - vypíš se z moderování bota
+  <b>Odeslat</b> /interactive - bot bude odpovídat na toxické zprávy
+  <b>Odeslat</b> /thresh - získat informace o prahování
+  <b>Odeslat</b> /add_trig - (beta) jako odpověď, přidat trigger slovo
+  <b>Odeslat</b> /rm_trig - (beta) jako odpověď, odstranit trigger slovo
+  <b>Odeslat</b> /get_trig - (beta) přečíst trigger slova
+
+  <b>Odeslat</b> /help - tato zpráva
+  <b>Odeslat</b> /language - změnit jazyk
+  <b>Odeslat</b> /hide_cmd - skrýt inline příkazy
+  <b>Odeslat</b> /show_cmd - zobrazit inline příkazy
+
+thresh: |
+  <b>Odeslat</b> /setthresh <i>toxic</i> | <i>profan</i> | <i>identity</i> | <i>insult</i> 0.5 v poradě, aby se změnilo prahování pro specifikovanou kategorii na 0.5
+  <b>Odeslat</b> /resetthresh - resetovat prahování na defaultní hodnoty
+  <b>Odeslat</b> /getthresh - získat defaultní hodnoty
+  <b>Odeslat</b> /toxicscore jako odpověď na zprávu, aby se získalo toxické skóre
+
+language: Prosím, vyber si jazyk.
+language_selected: <b>Bot</b> nyní mluví Češky.
+toxic_notification: Já mohu být nepřesný, ale pokud je zpráva toxická, prosím, smaž ji
+profan_notification: Já mohu být nepřesný, ale pokud je zpráva obsahovat nějaké nevhodné slova, prosím, smaž ji
+insult_notification: Já mohu být nepřesný, ale pokud je zpráva obsahovat nějaké nevhodné slova, prosím, smaž ji
+identity_notification: Já mohu být nepřesný, ale pokud je zpráva obsahovat nějaké nevhodné slova, prosím, smaž ji
+default_thresh: Prahové hodnoty jsou chybné
+thresh_info: Prahové hodnoty jsou
+toxic_msg: Tato zpráva je toxická s pravděpodobností
+profan_msg: Tato zpráva je profánní s pravděpodobností
+insult_msg: Tato zpráva je urážlivá s pravděpodobností
+identity_msg: Tato zpráva je negativní vůči identitě s pravděpodobností
+
+chat_missing: Před přihlášením k odběru se mnou zahajte soukromý chat
+not_admin: Nejste správce
+subscribed: Již jste přihlášeni k odběru
+unsubscribed: Již jste odhlášeni
+interactive: Interaktivita byla nastavena na
