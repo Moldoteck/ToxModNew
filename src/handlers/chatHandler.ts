@@ -302,6 +302,7 @@ export function chatHandler(bot: Bot<Context>) {
         if (private_chat) {
           chat.moderators.push(user_id)
           chat = await (chat as any).save()
+          ctx.reply('Ok').catch((err) => console.log(err))
         } else {
           ctx.reply(ctx.i18n.t('chat_missing')).catch((err) => console.log(err))
         }
@@ -320,6 +321,7 @@ export function chatHandler(bot: Bot<Context>) {
     if (user_id && chat.moderators.includes(user_id)) {
       chat.moderators.splice(chat.moderators.indexOf(user_id), 1)
       chat = await (chat as any).save()
+      ctx.reply('Ok').catch((err) => console.log(err))
     } else {
       ctx.reply(ctx.i18n.t('unsubscribed')).catch((err) => console.log(err))
     }
