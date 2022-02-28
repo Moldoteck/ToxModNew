@@ -14,7 +14,7 @@ help: |
 
   <b>Send</b> /add_trig - (beta) as reply, to add trigger word
   <b>Send</b> /rm_trig - (beta) as reply, to remove trigger word
-  <b>Send</b> /get_trig - (beta) to get trigger words
+  <b>Send</b> /list_trig - (beta) to get trigger words
 
   <b>Send</b> /help - this message
   <b>Send</b> /language - change language

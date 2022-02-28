@@ -14,7 +14,7 @@ help: |
 
   <b>Envie</b> /add_trig (beta) como resposta, para adicionar uma palavra-chave de trigger
   <b>Envie</b> /rm_trig (beta) como resposta, para remover uma palavra-chave de trigger
-  <b>Envie</b> /get_trig (beta) para obter as palavras-chave de trigger
+  <b>Envie</b> /list_trig (beta) para obter as palavras-chave de trigger
 
   <b>Envie</b> /help - esta mensagem
   <b>Envie</b> /language a fim de mudar o idioma

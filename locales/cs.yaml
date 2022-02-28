@@ -12,7 +12,7 @@ help: |
   <b>Odeslat</b> /thresh - získat informace o prahování
   <b>Odeslat</b> /add_trig - (beta) jako odpověď, přidat trigger slovo
   <b>Odeslat</b> /rm_trig - (beta) jako odpověď, odstranit trigger slovo
-  <b>Odeslat</b> /get_trig - (beta) přečíst trigger slova
+  <b>Odeslat</b> /list_trig - (beta) přečíst trigger slova
 
   <b>Odeslat</b> /help - tato zpráva
   <b>Odeslat</b> /language - změnit jazyk

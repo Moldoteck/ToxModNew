@@ -14,7 +14,7 @@ help: |
 
   <b>Envoyez</b> /add_trig - (beta) en réponse, pour ajouter un mot-clé
   <b>Envoyez</b> /rm_trig - (beta) en réponse, pour supprimer un mot-clé
-  <b>Envoyez</b> /get_trig - (beta) pour obtenir les mots-clés
+  <b>Envoyez</b> /list_trig - (beta) pour obtenir les mots-clés
 
   <b>Envoyez</b> /help - cette message
   <b>Envoyez</b> /language - changer de langue

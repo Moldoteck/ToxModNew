@@ -2,14 +2,18 @@ name: Hollandsk
 short_name: nl
 start: |
   <b>Bot</b> zal detecteren van toxische berichten in groepschatsen en helpen deze moderatie te beïnvloeden.
+help: |
+  <b>Bot</b> zal detecteren van toxische berichten in groepschatsen en helpen deze moderatie te beïnvloeden.
   Voeg de bot toe aan een groep! (en zorg erna voor <b>admin rechten!!!</b>)
   <b>Stuur</b> /subscribe_mod (voor admins) - wordt moderator van huidige chat. <b>(Je zou niet anoniem moeten zijn en groep moeten hebben link als t.me/...)</b>
   <b>Stuur</b> /unsubscribe_mod - uitschrijven van moderatie van huidige chat
   <b>Stuur</b> /interactive - bot zal reageren op toxische berichten
   <b>Stuur</b> /thresh - krijg informatie over thresholds
+
   <b>Stuur</b> /add_trig - (beta) als antwoord, om trigger woord toe te voegen
   <b>Stuur</b> /rm_trig - (beta) als antwoord, om trigger woord te verwijderen
-  <b>Stuur</b> /get_trig - (beta) om trigger woorden te krijgen
+  <b>Stuur</b> /list_trig - (beta) om trigger woorden te krijgen
+
   <b>Stuur</b> /help - dit bericht
   <b>Stuur</b> /language - verander taal
   <b>Stuur</b> /hide_cmd - verberg inline commando's

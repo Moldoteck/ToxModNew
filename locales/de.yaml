@@ -14,7 +14,7 @@ help: |
 
   <b>Send</b> /add_trig - (beta) als Antwort, um ein Triggerwort hinzuzufügen
   <b>Send</b> /rm_trig - (beta) als Antwort, um ein Triggerwort zu entfernen
-  <b>Send</b> /get_trig - (beta) um Triggerwörter zu erhalten
+  <b>Send</b> /list_trig - (beta) um Triggerwörter zu erhalten
 
   <b>Senden</b> /language um die Sprache zu ändern
   <b>Senden</b> /help - this message

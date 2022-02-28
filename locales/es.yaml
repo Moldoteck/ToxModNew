@@ -13,7 +13,7 @@ help: |
 
   <b>Enviar</b> /add_trig - (beta) como respuesta, para agregar una palabra clave
   <b>Enviar</b> /rm_trig - (beta) como respuesta, para eliminar una palabra clave
-  <b>Enviar</b> /get_trig - (beta) para obtener las palabras clave
+  <b>Enviar</b> /list_trig - (beta) para obtener las palabras clave
 
   <b>Enviar</b> /help - este mensaje
   <b>Enviar</b> /language - cambiar idioma

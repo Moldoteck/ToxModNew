@@ -13,7 +13,7 @@ help: |
 
   <b>Wyślij</b> /add_trig - (beta) jako odpowiedź, aby dodać słowo kluczowe
   <b>Wyślij</b> /rm_trig - (beta) jako odpowiedź, aby usunąć słowo kluczowe
-  <b>Wyślij</b> /get_trig - (beta) aby pobrać słowa kluczowe
+  <b>Wyślij</b> /list_trig - (beta) aby pobrać słowa kluczowe
 
   <b>Wyślij</b> /help - ten tekst
   <b>Wyślij</b> /language - zmień język

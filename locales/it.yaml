@@ -14,7 +14,7 @@ help: |
 
   <b>Spedire</b> /add_trig - (beta) come risposta, per aggiungere una parola trigger
   <b>Spedire</b> /rm_trig - (beta) come risposta, per rimuovere una parola trigger
-  <b>Spedire</b> /get_trig - (beta) per ottenere le parole trigger
+  <b>Spedire</b> /list_trig - (beta) per ottenere le parole trigger
 
   <b>Spedire</b> /language per cambiare lingua
   <b>Spedire</b> /help - questo messaggio
