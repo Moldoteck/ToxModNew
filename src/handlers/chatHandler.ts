@@ -334,16 +334,21 @@ export function chatHandler(bot: Bot<Context>) {
       let users_pr = 0
       for (let element of chats) {
         try {
-          users_tot += await ctx.api.getChatMemberCount(element.id)
-          chat_nr += 1
+          let chatObj = await ctx.api.getChat(element.id)
+          if (chatObj.type == 'private') {
+            users_pr += 1
+          } else {
+            chat_nr += 1
+            users_tot += await ctx.api.getChatMemberCount(element.id)
+          }
         } catch (err) {
           console.log(err)
-          users_pr += 1
         }
+        await new Promise((resolve) => setTimeout(resolve, 100))
       }
       ctx
         .reply(
-          'Total users ' +
+          'Chat users ' +
             users_tot +
             '\nPrivate Users ' +
             users_pr +
