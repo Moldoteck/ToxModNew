@@ -341,9 +341,12 @@ export function chatHandler(bot: Bot<Context>) {
             users_pr += 1
           } else {
             chat_nr += 1
-            users_tot += await customFunction(async () => {
+            let nr = await customFunction(async () => {
               return await ctx.api.getChatMemberCount(element.id)
             })
+            if (nr) {
+              users_tot += nr
+            }
           }
         } catch (err) {
           console.log(err)
