@@ -334,17 +334,20 @@ export function chatHandler(bot: Bot<Context>) {
       let users_pr = 0
       for (let element of chats) {
         try {
-          let chatObj = await ctx.api.getChat(element.id)
+          let chatObj = await customFunction(async () => {
+            return await ctx.api.getChat(element.id)
+          })
           if (chatObj.type == 'private') {
             users_pr += 1
           } else {
             chat_nr += 1
-            users_tot += await ctx.api.getChatMemberCount(element.id)
+            users_tot += await customFunction(async () => {
+              return await ctx.api.getChatMemberCount(element.id)
+            })
           }
         } catch (err) {
           console.log(err)
         }
-        await new Promise((resolve) => setTimeout(resolve, 100))
       }
       ctx
         .reply(
@@ -504,4 +507,23 @@ function deleteStrings(input: string, strings: Array<string>) {
 }
 function replaceAll(input: string, what: string, substitute: string = '') {
   return input.split(what).join(substitute)
+}
+
+async function customFunction(myfunction: Function): Promise<any> {
+  try {
+    return await myfunction()
+  } catch (err: any) {
+    let msg = '' + err.message
+    if (msg.includes('retry after')) {
+      let st = msg.indexOf('retry after') + 'retry after '.length
+      msg = msg.substring(st).split(' ')[0]
+      await delay(parseInt(msg))
+      return await customFunction(myfunction)
+    } else {
+      console.log('Error', err.stack)
+      console.log('Error', err.name)
+      console.log('Error', err.message)
+      return undefined
+    }
+  }
 }
